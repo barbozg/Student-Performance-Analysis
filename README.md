@@ -19,7 +19,7 @@ Este projeto realiza uma análise de desempenho dos alunos com base em diversas 
 - 🍽️ Tipo de almoço  
 - 📚 Participação em curso de preparação para o teste :contentReference[oaicite:1]{index=1}
 
-Utilizamos técnicas de limpeza e tratamento de dados, estatística descritiva e visualizações para entender como esses fatores impactam as notas de Matemática, Leitura e Escrita.
+Utilizei técnicas de limpeza e tratamento de dados, estatística descritiva e visualizações para entender como esses fatores impactam as notas de Matemática, Leitura e Escrita.
 
 ## Funcionalidades ⚙️
 
