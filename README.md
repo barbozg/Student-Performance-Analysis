@@ -1,44 +1,57 @@
-📚 Student Performance Analysis
-Análise exploratória de dados de desempenho estudantil, utilizando Python e bibliotecas de ciência de dados para identificar padrões e insights em notas de matemática, leitura e escrita.
+# Student Performance Analysis
 
-📋 Descrição
-Este projeto realiza uma análise de desempenho dos alunos com base em diversas características como:
+> Análise exploratória de dados de desempenho estudantil, utilizando Python e bibliotecas de ciência de dados para identificar padrões e insights em notas de matemática, leitura e escrita. :contentReference[oaicite:0]{index=0}
 
-Gênero
+## Índice
 
-Grupo étnico
+- [Descrição](#descrição)  
+- [Funcionalidades](#funcionalidades)  
+- [Tecnologias](#tecnologias)  
+- [Estrutura do Projeto](#estrutura-do-projeto)  
+- [Requisitos](#requisitos)  
+- [Instalação](#instalação)  
+- [Uso](#uso)  
+- [Dados](#dados)  
+- [Resultados Esperados](#resultados-esperados)  
+- [Contribuição](#contribuição)  
+- [Licença](#licença)  
+- [Contato](#contato)  
 
-Nível de escolaridade dos pais
+## Descrição
 
-Tipo de almoço
+Este projeto realiza uma análise de desempenho dos alunos com base em diversas características, tais como:
 
-Participação em curso de preparação para o teste
+- Gênero  
+- Grupo étnico  
+- Nível de escolaridade dos pais  
+- Tipo de almoço  
+- Participação em curso de preparação para o teste :contentReference[oaicite:1]{index=1}
 
-Utilizamos visualizações para destacar padrões e entender como esses fatores impactam o rendimento dos alunos.
+Utilizamos técnicas de limpeza e tratamento de dados, estatística descritiva e visualizações para entender como esses fatores impactam as notas de Matemática, Leitura e Escrita.
 
-🚀 Tecnologias Utilizadas
-Python
+## Funcionalidades
 
-Pandas
+- Importação e limpeza dos dados  
+- Análise estatística descritiva (média, mediana, desvio-padrão)  
+- Gráficos de distribuição e correlação  
+- Identificação de fatores que mais influenciam o desempenho  
+- Geração de insights acionáveis para educadores  
 
-Matplotlib
+## Tecnologias
 
-Seaborn
+- **Python**  
+- **Jupyter Notebook**  
+- **Pandas**  
+- **Matplotlib**  
+- **Seaborn**  
 
-📈 Funcionalidades
-Importação e limpeza dos dados
+## Estrutura do Projeto
 
-Análise estatística descritiva
-
-Visualizações gráficas de correlações e distribuições
-
-Identificação de fatores que impactam o desempenho
-
-🗂️ Dataset
-O conjunto de dados utilizado é o Students Performance in Exams, disponível no Kaggle.
-
-Cada registro contém:
-
-Atributos demográficos do aluno
-
-Notas individuais em Matemática, Leitura e Escrita
+```text
+.
+├── Database/  
+│   └── StudentsPerformance.csv      ← Dados brutos dos estudantes :contentReference[oaicite:2]{index=2}  
+├── Python/  
+│   └── Student-checkpoint-checkpoint-checkpoint-checkpoint.ipynb  ← Notebook da análise :contentReference[oaicite:3]{index=3}  
+├── .gitattributes  
+└── README.md                       ← Este arquivo  
